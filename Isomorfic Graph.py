@@ -44,8 +44,6 @@ for i in range(graph_size):
 
 # equality rate
 lim = 0.90
-# check cv or check random
-check_cv = False
 
 for i in range(graph_size):
     for j in range(graph_size):
@@ -96,3 +94,4 @@ print((t_p[1] + t_n[1]) / (t_p[1] + t_n[1] + f_p[1] + f_n[1]))
 print("Rand")
 print(t_p[2], t_n[2], f_p[2], f_n[2])
 print((t_p[2] + t_n[2]) / (t_p[2] + t_n[2] + f_p[2] + f_n[2]))
+
